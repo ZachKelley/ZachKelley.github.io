@@ -12,3 +12,50 @@ p {
 li {
   margin-bottom: 0px 0
 }
+p.htitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0em;
+  text-align: center;
+  float: center;
+}
+div.aboutme {
+  width: 100%;
+  padding: 10px;
+  border: 5px solid gray;
+  background-color: lightblue;
+  margin: 0em;
+  align-items: center;
+  justify-content: center;
+}
+div.aboutmecontent {
+  width: 40%;
+  float: left;
+  background-color: #ffffff00 /*transparent*/;
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+}
+p.aboutme {
+  width: 15em;
+  font-size: 18px;
+  float: left;
+  margin-right: 2em;
+  margin-top: 15%;
+}
+div.info {
+  width: 40%;
+  float: right;
+}
+img.aboutme {
+  width: 20%;
+  height: 400px;
+  float: center;
+  margin: 0em;
+}
+div.contactinfo {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
